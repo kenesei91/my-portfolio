@@ -99,3 +99,125 @@ header nav ul li a:active {
 }
 
 /* HEADER / NAVBAR STYLES END */
+
+.bio {
+    color: #39a6b2;
+    width: 100%;  
+    padding: 20px; 
+    text-align: start;
+    
+}
+
+.bio h2 {
+    font-size: 35px;
+    font-weight: lighter; 
+    padding-right: 20px;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    width: 50%;
+    margin: 0 auto 35px auto;
+}
+
+.bio-fix p {
+    line-height: 20px;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 10px;
+    line-height: 1.7;
+}
+
+.call {
+    text-align: start;
+}
+
+.contact-info h2 {
+    font-size: 35px;
+    font-weight: lighter;
+    border-bottom: 3px solid;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 20px;
+}
+
+.contact-info nav ul {
+    list-style: none;
+    margin: 0 auto 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    line-height: 1.7;
+    color: #39a6b2;
+}
+
+.work-info {
+    text-align: start;
+}
+
+.project h2 {
+    text-align: start;
+    font-size: 35px;
+    font-weight: lighter;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    border-bottom: 3px solid;
+    padding: 20px 0 20px 0;    
+}
+
+.projects {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+    padding-top: 20px;
+    
+}
+
+.project-info img {
+    width: 400px;
+    height: 200px;
+    border: 3px solid;
+    border-radius: 13px;
+    border-color: rgb(80, 75, 75);
+}
+
+.project-info {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.project-info .block {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    top: 70%;
+    right: 5%;
+    background: rgb(136, 51, 51);
+    width: 40%;
+    padding: 6px;
+    font-size: 12px;
+    flex-wrap: wrap;
+    opacity: 0.5;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.block h3 {
+    padding-bottom: 10px;
+}
+
+.work-info img:hover{
+    border-radius: 15px;
+    color: teal;
+    background: tomato;
+    opacity: 1;
+}
