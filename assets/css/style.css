@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: -10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #39a6b2;
+    background-color: rgb(46, 40, 40);
+}
+
+.stack {
+    color: rgb(80, 75, 75);
+}
+
+/* HEADER / NAVBAR STYLES START */
+
+header {
+    padding: 20px 35px;
+    background-color: rgb(46, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url('');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bolder;
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+header a {
+    text-decoration: none;
+    color: #39a6b2;
+}
+
+header nav {
+    margin: 0 auto 0 auto;
+}
+
+header nav ul {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;   
+}
+
+header nav ul li a {
+    font-weight: lighter;
+    padding: 10px 25px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+}
+
+header nav ul li a:hover {
+    border-radius: 15px;
+    background: rgb(136, 51, 51);
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+header nav ul li a:active {
+    background: crimson;
+}
+
+.hero {
+    background-image: url('../images/IMG_7397.JPG');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    height: 500px;
+}
+.hero-text {
+    color: rgb(210, 221, 221);
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: lighter;
+    width: 50%;
+    text-align: start;
+    
+}
+
+.hero-text p {  
+    padding-top: 10px;
+}
+
+/* HEADER / NAVBAR STYLES END */
