@@ -74,8 +74,8 @@ header nav ul li a:active {
 }
 
 .hero {
-    background-image: url('../images/IMG_7397.JPG');
-    background-size: cover;
+   
+    background-color:rgb(24, 20, 20);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -86,7 +86,7 @@ header nav ul li a:active {
 }
 .hero-text {
     color: rgb(210, 221, 221);
-    font-size: 15px;
+    font-size: 55px;
     font-family: cursive;
     font-weight: lighter;
     width: 50%;
@@ -96,6 +96,7 @@ header nav ul li a:active {
 
 .hero-text p {  
     padding-top: 10px;
+    font-size: 30px;
 }
 
 /* HEADER / NAVBAR STYLES END */
@@ -276,3 +277,38 @@ a {
     font-size: 1.5em;
     background: rgba(0, 0, 0, 0.08);
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+        justify-content: center;
+    }
+    
+    header nav ul {
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .hero {
+        justify-content: center;
+        margin: 0 auto 0 auto;
+    }
+
+    .project-info img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .projects {
+        padding-top: 30px;
+    }
+
+    .project-info {
+        margin: 0 0 0 10px;
+        
+    }
+    
+    
+    
+}
+
