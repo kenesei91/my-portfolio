@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: -10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #39a6b2;
+    background-color: rgb(46, 40, 40);
+}
+
+.stack {
+    color: rgb(80, 75, 75);
+}
+
+/* HEADER / NAVBAR STYLES START */
+
+header {
+    padding: 20px 35px;
+    background-color: rgb(46, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url('');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bolder;
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+header a {
+    text-decoration: none;
+    color: #39a6b2;
+}
+
+header nav {
+    margin: 0 auto 0 auto;
+}
+
+header nav ul {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;   
+}
+
+header nav ul li a {
+    font-weight: lighter;
+    padding: 10px 25px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+}
+
+header nav ul li a:hover {
+    border-radius: 15px;
+    background: rgb(136, 51, 51);
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+header nav ul li a:active {
+    background: crimson;
+}
+
+.hero {
+   
+    background-color:rgb(24, 20, 20);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    height: 500px;
+}
+.hero-text {
+    color: rgb(210, 221, 221);
+    font-size: 55px;
+    font-family: cursive;
+    font-weight: lighter;
+    width: 50%;
+    text-align: start;
+    
+}
+
+.hero-text p {  
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+/* HEADER / NAVBAR STYLES END */
+
+.bio {
+    color: #39a6b2;
+    width: 100%;  
+    padding: 20px; 
+    text-align: start;
+    
+}
+
+.bio h2 {
+    font-size: 35px;
+    font-weight: lighter; 
+    padding-right: 20px;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    width: 50%;
+    margin: 0 auto 35px auto;
+}
+
+.bio-fix p {
+    line-height: 20px;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 10px;
+    line-height: 1.7;
+}
+
+.call {
+    text-align: start;
+}
+
+.contact-info h2 {
+    font-size: 35px;
+    font-weight: lighter;
+    border-bottom: 3px solid;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 20px;
+}
+
+.contact-info nav ul {
+    list-style: none;
+    margin: 0 auto 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    line-height: 1.7;
+    color: #39a6b2;
+}
+
+.work-info {
+    text-align: start;
+}
+
+.project h2 {
+    text-align: start;
+    font-size: 35px;
+    font-weight: lighter;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    border-bottom: 3px solid;
+    padding: 20px 0 20px 0;    
+}
+
+.projects {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+    padding-top: 20px;
+}
+
+.project-info img {
+    width: 455px;
+    height: 230px;
+    border: 3px solid;
+    border-radius: 13px;
+    border-color: rgb(80, 75, 75);
+}
+
+.project-info {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 auto 0 auto; 
+}
+
+.project-info .block {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    top: 60%;
+    right: 5%;
+    background: rgb(136, 51, 51);
+    width: 40%;
+    padding: 10px;
+    font-size: 12px;
+    flex-wrap: wrap;
+    opacity: 0.5;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.block h3 {
+    padding-bottom: 5px;
+}
+
+.work-info img:hover{
+    border-radius: 15px;
+    color: teal;
+    background: tomato;
+    opacity: 1;
+}
+
+.cv-info h2 {
+    font-size: 35px;
+    font-weight: lighter;
+    width: 50%;
+    text-align: start;
+    margin: 0 auto 0 auto;
+    padding: 10px 0 0 0;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+}
+
+.align {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 20px ;
+}
+
+.button {
+    display: inline-flex;
+    margin: 0 auto;
+    height: 50px;
+    padding: 0;
+    background: #39a6b2;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(136, 51, 51);
+}
+
+.button:active {
+    background: crimson;
+}
+.button-text, .button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    height: 100%;
+}
+
+.button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header nav {
+        margin: 0 auto 0 50px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .cv-info h2 {
+        padding-top: 20px;
+    }
+
+    header nav ul {
+        padding-top: 10px;
+    }
+
+    .project-info {
+        padding: 10px;
+    }
+
+    .project-info .block {
+        padding: 0px;
+        top: 70%;
+    }
+}
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+        justify-content: center;
+    }
+    
+    header nav ul {
+        justify-content: center;
+        padding-bottom: 10px;
+        width: 80%;
+        text-align: center;
+        
+        
+    }
+
+    .hero {
+        justify-content: center;
+        margin: 0 auto 0 auto;
+    }
+
+    .hero-text {
+        font-size: 30px;
+    }
+
+    .project-info img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .projects {
+        padding-top: 30px;
+    }
+
+    .project-info {
+        margin: 0 0 0 10px; 
+    }
+
+    .project-info .block {
+        padding: 5px;
+        top: 65%;
+    }
+}
+
+
+
+
+
