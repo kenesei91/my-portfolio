@@ -1,10 +1,10 @@
-# Website Portfolio 
+# Professional Portfolio 
 
 **Version 1.1.0**
 
-**My website portfolio.**
+**My professional portfolio.**
 
-The aim of this project is to create a portfolio website that showcases my skills and knowledge in web development and improve the overall user experience when assessing different features of this website. This is very important becuase it engages the employers and it also ensures web accessibility. More importantly, creating a portfolio is also essential in growing or starting a business. Using the appropriate elments, classes and id selectors, users are able to navigate to each section of the page. Also, introducing the proper styling, employers are able to understand different sections as well as the ease to navigate to different pages within the website. Understanding the need of accessibility is vital as there are many devices some smaller than others to vew information. So i have set up three sizes that is likely to meet most devices available to day. While this portfolio is subject to change and improvement, it is fully functional and shows major information relating to me.
+The aim of this project is to create a professional portfolio  that showcases my skills and knowledge in web development and improve the overall user experience when assessing different features of this portfolio. This is very important becuase it engages the employers and it also ensures web accessibility. More importantly, creating a portfolio is also essential in growing or starting a business. Using the appropriate elments, classes and id selectors, users are able to navigate to each section of the page. Also, introducing the proper styling, employers are able to understand different sections as well as the ease to navigate to different pages within the portfolio. Understanding the need of accessibility is vital as there are many devices some smaller than others to vew information. So i have set up three sizes that is likely to meet most devices available to day. While this portfolio is subject to change and improvement, it is fully functional and shows major information relating to me.
 
 
 ## Built With
@@ -15,7 +15,7 @@ The aim of this project is to create a portfolio website that showcases my skill
 
 ## Work Completed
 
-**Creating a website portfolio by adding the following:**
+**Creating a professional portfolio by adding the following:**
 
 - [x]Semantic HTML elements
 - [x]Elements follow logical structure independent styling and positioning
