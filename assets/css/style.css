@@ -76,22 +76,20 @@ header nav ul li a:active {
 .hero {
    
     background-color:rgb(24, 20, 20);
+    height: 900px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    height: 500px;
+    
 }
+
 .hero-text {
     color: rgb(210, 221, 221);
-    font-size: 55px;
+    font-size: 70px;
     font-family: cursive;
     font-weight: lighter;
-    width: 50%;
-    text-align: start;
     
+    margin-left: 80px;
 }
 
 .hero-text p {  
@@ -99,51 +97,47 @@ header nav ul li a:active {
     font-size: 30px;
 }
 
+
 /* HEADER / NAVBAR STYLES END */
 
 .bio {
-    color: #39a6b2;
-    width: 100%;  
     padding: 20px; 
-    text-align: start;
-    
+    text-align: start; 
 }
 
 .bio h2 {
     font-size: 35px;
     font-weight: lighter; 
-    padding-right: 20px;
+    
     border-bottom: 3px solid;
     padding-bottom: 20px;
-    width: 50%;
-    margin: 0 auto 35px auto;
+    
+    
 }
 
 .bio-fix p {
-    line-height: 20px;
-    width: 50%;
-    margin: 0 auto 0 auto;
-    padding-bottom: 10px;
-    line-height: 1.7;
+     line-height: 1.7;
+     padding-top: 20px;
 }
 
 .call {
     text-align: start;
+    padding: 20px; 
 }
 
 .contact-info h2 {
     font-size: 35px;
     font-weight: lighter;
     border-bottom: 3px solid;
-    width: 50%;
-    margin: 0 auto 0 auto;
+    
+    
     padding-bottom: 20px;
 }
 
 .contact-info nav ul {
     list-style: none;
-    margin: 0 auto 0 auto;
-    width: 50%;
+    
+    
     padding-top: 20px;
     padding-left: 0px;
 }
@@ -154,84 +148,44 @@ a {
     color: #39a6b2;
 }
 
-.work-info {
-    text-align: start;
-}
-
-.project h2 {
-    text-align: start;
-    font-size: 35px;
-    font-weight: lighter;
-    width: 50%;
-    margin: 0 auto 0 auto;
-    border-bottom: 3px solid;
-    padding: 20px 0 20px 0;    
+.project-info {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px #83898a;
 }
 
 .projects {
-    width: 50%;
-    text-align: center;
-    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    
-    
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
-.project-info img {
-    width: 455px;
-    height: 230px;
-    border: 3px solid;
-    border-radius: 13px;
-    border-color: rgb(80, 75, 75);
-}
-
-.project-info {
-    position: relative;
-    display: inline-block;
-    padding: 5px;
-    margin: 0 auto 0 auto; 
-}
-
-.project-info .block {
-    position: absolute;
+.work-info {
     text-align: center;
-    margin: 0 auto;
-    top: 60%;
-    right: 5%;
-    background: rgb(136, 51, 51);
-    width: 40%;
-    padding: 10px;
-    font-size: 12px;
-    flex-wrap: wrap;
-    opacity: 0.5;
-    border-radius: 10px;
-    font-size: 12px;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.project h2 {
+    font-size: 35px;
+    font-weight: lighter;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
 }
 
-.block h3 {
-    padding-bottom: 5px;
-}
 
-.work-info img:hover{
-    border-radius: 15px;
-    color: teal;
-    background: tomato;
-    opacity: 1;
+
+.cv {
+    text-align: start;
+    padding: 20px;
 }
 
 .cv-info h2 {
     font-size: 35px;
     font-weight: lighter;
-    width: 50%;
-    text-align: start;
-    margin: 0 auto 0 auto;
-    padding: 10px 0 0 0;
     border-bottom: 3px solid;
     padding-bottom: 20px;
+    
 }
 
 .align {
@@ -283,6 +237,10 @@ a {
     header nav {
         margin: 0 auto 0 50px;
         padding-bottom: 10px;
+        
+    }
+    .cv-info h2 {
+        color: blue;
     }
 }
 
@@ -305,6 +263,9 @@ a {
         padding: 0px;
         top: 70%;
     }
+    .cv-info h2 {
+        color: red;
+    }
 }
 
 
@@ -318,9 +279,7 @@ a {
         justify-content: center;
         padding-bottom: 10px;
         width: 80%;
-        text-align: center;
-        
-        
+        text-align: center; 
     }
 
     .hero {
@@ -348,6 +307,9 @@ a {
     .project-info .block {
         padding: 5px;
         top: 65%;
+    }
+    .cv-info h2 {
+        color:pink;
     }
 }
 
