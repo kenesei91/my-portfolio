@@ -6,27 +6,27 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #39a6b2;
-    background-color: rgb(46, 40, 40);
+    /*color: #39a6b2;
+    background-color: rgb(46, 40, 40);*/
+    color: black
 }
 
 .stack {
-    color: rgb(80, 75, 75);
+    color: white
 }
 
 /* HEADER / NAVBAR STYLES START */
 
 header {
     padding: 20px 35px;
-    background-color: rgb(46, 40, 40);
+    background-color: rgb(24, 20, 20);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
+   
     top: 0;
     background-image: url('');
-    background-size: cover;
+
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
@@ -35,17 +35,18 @@ header {
 header h1 {
     font-weight: bolder;
     margin: 0;
-    font-size: 36px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 46px;
+    /*text-shadow: 0 0 10px white;*/
+    color: rgb(192, 32, 32);;
 }
 
 header a {
     text-decoration: none;
-    color: #39a6b2;
+    color: white
 }
 
 header nav {
-    margin: 0 auto 0 auto;
+    margin: 0 70px;
 }
 
 header nav ul {
@@ -54,23 +55,24 @@ header nav ul {
     justify-content: space-between;
     list-style: none;
     align-items: center;   
+    
 }
 
 header nav ul li a {
     font-weight: lighter;
     padding: 10px 25px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    font-size: 15px;
+    font-size: 23px;
 }
 
 header nav ul li a:hover {
     border-radius: 15px;
-    background: rgb(136, 51, 51);
-    color: white;
+    color: rgb(156, 37, 61);
+    
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 header nav ul li a:active {
-    background: crimson;
+    color: crimson;
 }
 
 .hero {
@@ -80,7 +82,6 @@ header nav ul li a:active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .hero-text {
@@ -88,37 +89,105 @@ header nav ul li a:active {
     font-size: 70px;
     font-family: cursive;
     font-weight: lighter;
-    
     margin-left: 80px;
+}
+
+.hero-para {
+    color: rgb(192, 32, 32);
 }
 
 .hero-text p {  
     padding-top: 10px;
     font-size: 30px;
 }
-
-
 /* HEADER / NAVBAR STYLES END */
 
 .bio {
+    text-align: center; 
     padding: 20px; 
-    text-align: start; 
 }
 
-.bio h2 {
-    font-size: 35px;
-    font-weight: lighter; 
-    
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    
+.kene {
+    color: crimson;
+    font-size: 30px;
+}
+
+.bio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.para-right {
+    line-height: 1.7;
+    padding: 80px;
+    font-size: 21px;
+    font-family: cursive;
     
 }
 
-.bio-fix p {
-     line-height: 1.7;
-     padding-top: 20px;
+.image-left {
+    height: 400px;
+    width: 500px;
+    border-radius: 16px;
 }
+
+.bio-fix h2 {
+    font-size: 55px;
+    font-weight: 300px; 
+    font-family: cursive;
+    text-align: center;
+}
+
+.align {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 20px ;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: inline-flex;
+    margin: 0 auto;
+    height: 70px;
+    padding: 0;
+    background: rgb(192, 32, 32);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(175, 16, 16);
+}
+
+.button:active {
+    background: crimson;
+}
+.button-text, .button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    height: 100%;
+}
+
+.button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+.button-text {
+    font-size: 34px;
+}
+
 
 .call {
     text-align: start;
@@ -145,90 +214,78 @@ header nav ul li a:active {
 a {
     text-decoration: none;
     line-height: 1.7;
-    color: #39a6b2;
+     color: black;
 }
 
 .project-info {
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 600px;
     box-shadow: 5px 5px 20px #83898a;
+    margin: 10px;
 }
 
-.projects {
+.project-container {
     display: flex;
     justify-content: space-around;
-    padding-top: 40px;
+    margin: 50px;  
 }
 
 .work-info {
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 20px;
 }
 .project h2 {
-    font-size: 35px;
-    font-weight: lighter;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
+    font-size: 55px;
+    font-weight: 300px;
+    font-family: cursive;
+}
+.subtext {
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 1.0;
 }
 
+.project-link {
+    color: rgb(192, 32, 32);
+}
 
+.project-info h3, img, p {
+    padding: 10px;
+}
+
+.image-info {
+    margin-top: 15px;
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link:hover {
+    font-size: 25px;
+    color: rgb(192, 32, 32);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.project-link:active {
+    color: red
+
+}
 
 .cv {
-    text-align: start;
-    padding: 20px;
+    text-align: center;
+    padding: 20px;   
 }
 
 .cv-info h2 {
     font-size: 35px;
-    font-weight: lighter;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    
-}
-
-.align {
-    width: 50%;
-    text-align: center;
-    margin: 0 auto 0 auto;
-    padding: 20px ;
-}
-
-.button {
-    display: inline-flex;
-    margin: 0 auto;
-    height: 50px;
-    padding: 0;
-    background: #39a6b2;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.button:hover {
-    background: rgb(136, 51, 51);
-}
-
-.button:active {
-    background: crimson;
-}
-.button-text, .button-icon {
-    display: inline-flex;
-    align-items: center;
-    padding: 0 24px;
-    color: white;
-    height: 100%;
-}
-
-.button-icon {
-    font-size: 1.5em;
-    background: rgba(0, 0, 0, 0.08);
+    font-weight: 300px;
+    font-family: cursive;
 }
 
 
